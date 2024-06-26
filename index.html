@@ -83,34 +83,27 @@
     <h1>Soal Essay</h1>
     <form id="essayForm">
       <label for="essay1"
-        >Soal 1: Sebutkan dan jelaskan tiga contoh cabang iman (syu’abul iman)
-        yang harus diwujudkan dalam kehidupan sehari-hari seorang Muslim!</label
+        >Soal 1: Jelaskan pentingnya kompetisi dalam kebaikan menurut ajaran Islam dan bagaimana hal tersebut dapat membantu individu meraih kesuksesan!</label
       ><br />
       <textarea id="essay1" name="essay1" required></textarea><br />
 
       <label for="essay2"
-        >Soal 2: Berikan contoh konkret bagaimana seorang Muslim dapat menjalani
-        hidup penuh manfaat dengan menghindari perilaku berfoya-foya, riya’,
-        sum’ah, takabbur, dan hasad!</label
+        >Soal 2: Bagaimana etos kerja yang baik dapat berkontribusi terhadap kesuksesan seseorang di dunia profesional dan spiritual?</label
       ><br />
       <textarea id="essay2" name="essay2" required></textarea><br />
 
       <label for="essay3"
-        >Soal 3: Apa saja langkah-langkah yang dapat diambil untuk menghindari
-        sifat riya’, sum’ah, takabbur, dan hasad dalam kehidupan
-        sehari-hari?</label
+        >Soal 3: Mengapa memulai amal dengan membaca basmalah dapat memberikan dampak positif terhadap hasil pekerjaan seseorang? Berikan contoh konkretnya!</label
       ><br />
       <textarea id="essay3" name="essay3" required></textarea><br />
 
       <label for="essay4"
-        >Soal 4: Bagaimana prinsip dasar asuransi syariah berbeda dari asuransi
-        konvensional?</label
+        >Soal 4: Jelaskan apa yang dimaksud dengan ketauhidan dalam Islam dan sebutkan tiga aspek utama yang melingkupinya!</label
       ><br />
       <textarea id="essay4" name="essay4" required></textarea><br />
 
       <label for="essay5"
-        >Soal 5: Mengapa koperasi syariah penting untuk kesejahteraan ekonomi
-        umat?</label
+        >Soal 5: Mengapa memulai setiap amal dengan membaca basmalah dianggap penting dalam Islam? Berikan dua alasan beserta penjelasannya!</label
       ><br />
       <textarea id="essay5" name="essay5" required></textarea><br />
 
@@ -138,42 +131,30 @@
 
           // Evaluasi setiap jawaban
           var score1 = evaluateEssay(essay1Text, [
-            "kejujuran",
-            "manah",
-            "menjaga kebersihan",
+            "Motivasi Positif", 
+            "Meningkatkan Diri",
+            "Mendapatkan Ridha Allah",
+            "Membangun Masyarakat yang Lebih Baik",
+          ]);
           var score2 = evaluateEssay(essay2Text, [
-            "hidup sederhana",
-            "ibadah dengan ikhlas",
-            "rendah hati",
-            "menghindari iri hati",
+            "profesional",
+            "spiritual",
+            "keseimbangan hidup",
+            "pengaruh positif",
           ]);
           var score3 = evaluateEssay(essay3Text, [
-            "memperbaiki niat",
-             "muhasabah",
-             "bersikap tawadhu",
-             "bersyukur",
-            "memperbanyak ibadah",
-            "menghindari perbandingan sosial",
-
+            "Keberkahan",
+            "ketenangan jiwa",
+            "perlindungan dari kesalahan",
           ]);
           var score4 = evaluateEssay(essay4Text, [
-           "gotong royong",
-           "saling membantu",
-           "menghindari unsur riba (bunga)",
-           "gharar (ketidakpastian)",
-           "judi",
-
-
+            "Rububiyah",
+            "Uluhiyah",
+            "Asma wa Sifat",
           ]);
           var score5 = evaluateEssay(essay5Text, [
-           "layanan simpan pinjam",
-           "pembiayaan usaha",
-           "prinsip keadilan",
-           "transparansi",
-           "kebersamaan",
-           "sesuai dengan syariah",
-
-
+            "mengakui kekuasaan Allah",
+            "memohon keberkahan",
           ]);
 
           // Hitung total skor
